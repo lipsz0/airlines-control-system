@@ -1,6 +1,6 @@
 BasedOnStyle: Google
 Language: C
-ColumnLimit: 512
+ColumnLimit: 256
 IndentWidth: 4
 UseTab: Never
 BreakBeforeBraces: Attach

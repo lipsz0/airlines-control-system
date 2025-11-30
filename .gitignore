@@ -1,5 +1,5 @@
-# # Ignore Clang format files
-# *.clang-format
+# Ignore Clang format files
+*.clang-format
 
-# # Ignore project briefing
-# Enunciado.txt
+# Ignore project briefing
+Enunciado.txt
