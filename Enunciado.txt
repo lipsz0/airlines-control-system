@@ -1,0 +1,23 @@
+1. Enunciado:
+
+No segundo trabalho prático você irá alterar o programa desenvolvido no primeiro trabalho para que este utilize como estrutura de dados listas encadeadas ao invés de vetores.
+
+Não esqueça que os ponteiros para as duas listas encadeadas, isto é, a lista de aeronaves e a lista de rotas (voos), deverão estar declarados localmente na função main().
+Nesta versão do programa não haverá mais nenhuma variável global.
+
+Além de alterar as estruturas de dados de vetor para lista encadeada o programa deverá fazer persistência de dados em arquivos do tipo binário. Quando o programa for finalizado
+ todos os registros das duas listas encadeadas deverão ser salvos em dois arquivos binários diferentes, ou seja, um para aeronaves e outro para rotas.
+
+Quando o programa for executado os arquivos binários devem ser lidos e, se houver registros armazenados estes devem ser alocados na memória RAM na respectiva lista encadeada 
+(jogadores ou jogos).
+
+Todos os relatórios devem ter duas opções de saída: na tela e em arquivo texto, o qual o usuário deverá informar o nome. Os arquivos do tipo texto gerados devem estar no 
+formato .csv, para posteriormente serem abertos pelo Excel (ou Calc (OpenOffice)). Deve haver uma opção no programa para exportar os dados de aeronaves e de rotas para
+o formato .html.
+
+Pelo menos uma das funções de busca deverá ser implementada de forma recursiva. As demais poderão ser iterativa.
+
+O programa deverá ser estruturado como um projeto C, ou seja, conterá alguns arquivos .c e outros .h. A organização do código em arquivos .c e .h fica a critério do(a) 
+programador(a). O programa deverá ser compilado a partir de um arquivo Makefile. Utilize o github (https://github.com/) como repositório de código e controle de versionamento.
+
+Não esqueça que somente é possível cadastrar uma rota se existir uma aeronave disponível. Lembre-se que uma aeronave em manutenção não pode ser alocada para uma rota.
