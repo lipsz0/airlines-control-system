@@ -3,22 +3,27 @@
 
 #include "types.h"
 
-// Function to initialize the database of aircrafts
-void init_db_aircraft (db_aircraft_t *db_aircraft);
+// Inicializa a lista de aeronaves
+void init_db_aircraft(db_aircraft_t *db_aircraft);
 
-// Function to initialize the database of routes
-void init_db_routes (db_routes_t *db_routes);
+// Inicializa a lista de rotas
+void init_db_routes(db_routes_t *db_routes);
 
-// Function to insert an aircraft in the database
-void register_aircraft (db_aircraft_t *db_aircraft, aircraft_t *aircraft, unsigned int mode);
+// Insere uma aeronave na lista (inicio ou fim)
+void register_aircraft(db_aircraft_t *db_aircraft, aircraft_t *aircraft,
+                       register_type_t mode);
 
-// Function to insert a route in the database
-void register_route (db_routes_t *db_routes, routes_t *route, unsigned int mode);
+// Insere uma rota na lista (inicio ou fim)
+void register_route(db_routes_t *db_routes, routes_t *route,
+                    register_type_t mode);
 
-// Function to register a new aircraft
-aircraft_t *new_aircraft (unsigned int *id);
+// Cria uma nova aeronave solicitando dados ao usuario
+aircraft_t *new_aircraft(db_aircraft_t *db_aircraft);
 
-// Function to register a new route
-routes_t *new_route (unsigned int *id, db_aircraft_t *db_aircraft);
+// Cria uma nova rota solicitando dados ao usuario
+routes_t *new_route(db_routes_t *db_routes, db_aircraft_t *db_aircraft);
+
+// Atualiza o status de uma aeronave (Operacao <-> Manutencao)
+void update_aircraft_status(db_aircraft_t *db_aircraft);
 
 #endif

@@ -9,8 +9,11 @@ TARGET = airlines_system
 OBJECTS_LIST = $(OBJS)/archives.o \
 							$(OBJS)/menu.o \
 							$(OBJS)/register.o \
+							$(OBJS)/reports.o \
 							$(OBJS)/utils.o \
 							$(OBJS)/validation.o \
+							$(OBJS)/search.o \
+							$(OBJS)/export.o \
 							$(OBJS)/main.o
 
 # .PHONY avisa ao make que 'all' e 'clean' não são arquivos reais

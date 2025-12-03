@@ -11,19 +11,25 @@
 
 #include "types.h"
 
-// Function to clear the terminal screen
-void clear_terminal (void);
+// Limpa a tela do terminal
+void clear_terminal(void);
 
-// Function to clear the input buffer
-void clear_buffer (void);
+// Limpa o buffer de entrada
+void clear_buffer(void);
 
-// Function to retire newline character from a string
-void retire_newline (char *str);
+// Remove nova linha de string
+void remove_newline(char *str);
 
-// Function to convert a string to lowercase and format it
-void tolower_format (char *str);
+// Converte string para maiusculas
+void to_upper_format(char *str);
 
-// Function to get the current year
-unsigned int get_current_year (void);
+// Converte string para minusculas
+void to_lower_format(char *str);
+
+// Obtem o ano atual
+unsigned int get_current_year(void);
+
+// Aguarda o usuario pressionar ENTER
+void wait_for_enter(void);
 
 #endif

@@ -6,7 +6,7 @@ Não esqueça que os ponteiros para as duas listas encadeadas, isto é, a lista 
 Nesta versão do programa não haverá mais nenhuma variável global.
 
 Além de alterar as estruturas de dados de vetor para lista encadeada o programa deverá fazer persistência de dados em arquivos do tipo binário. Quando o programa for finalizado
- todos os registros das duas listas encadeadas deverão ser salvos em dois arquivos binários diferentes, ou seja, um para aeronaves e outro para rotas.
+todos os registros das duas listas encadeadas deverão ser salvos em dois arquivos binários diferentes, ou seja, um para aeronaves e outro para rotas.
 
 Quando o programa for executado os arquivos binários devem ser lidos e, se houver registros armazenados estes devem ser alocados na memória RAM na respectiva lista encadeada 
 (jogadores ou jogos).
