@@ -1,0 +1,14 @@
+# Ignore project briefing
+*.txt
+
+# Ignore previous version of the code
+airlines_system_v1.c
+
+# Ignore data files
+data/*
+
+# Ignore .vscode
+.vscode/*
+
+# Ignore temp files
+temp/*
